@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.56.1]
+
+- [`b95a7f8`](https://github.com/tauri-apps/wry/commit/b95a7f81cbdaab80b13dff2f79472ea28589f210) ([#1799](https://github.com/tauri-apps/wry/pull/1799) by [@Legend-Master](https://github.com/tauri-apps/wry/../../Legend-Master)) On Windows, ignore set webview focus error on create as it fails if the hosting window is minimized.
+- [`aff28ef`](https://github.com/tauri-apps/wry/commit/aff28ef5a48e717e1b14b716e452124663cc4df1) ([#1781](https://github.com/tauri-apps/wry/pull/1781) by [@FabianLars](https://github.com/tauri-apps/wry/../../FabianLars)) On macOS in debug mode, don't register `requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:` delegate method on macOS 11 or older to prevent a debug_assertion startup panic.
+
 ## \[0.56.0]
 
 - [`affbb3c`](https://github.com/tauri-apps/wry/commit/affbb3cbccc618663737f9b629f2aa21d3890159) ([#1720](https://github.com/tauri-apps/wry/pull/1720)) Updated Android lifecycle JNI calls in `WryActivity` for Tao 0.36's renames:
